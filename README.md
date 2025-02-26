@@ -72,7 +72,7 @@ Login to Meta Business Suite https://business.facebook.com
 
 ## configure 790 to use your WhatsApp account
 
-* Set these three variables in file scripts/default.sh (taken from your https://developers.facebook.com apps dashboard) 
+* Set these three variables in file scripts/default.sh 
 
 ```
 export WHATSAPP_PHONE_NUMBER_ID="642398275615559"
