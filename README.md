@@ -110,7 +110,7 @@ docker run -d  -v /tmp/gazoo-commands:/tmp/gazoo-commands --restart always --nam
 
 ## Screen Shots
 
-<img src="https://github.com/sigreen-nokia/790/blob/main/pics/whatsapp-phone-app.png" alt="Alt Text" width="200" height="600">
+<img src="https://github.com/sigreen-nokia/790/blob/main/pics/whatsapp-phone-app.png" alt="Alt Text" width="400" height="600">
 
 
 
