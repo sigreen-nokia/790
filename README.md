@@ -75,9 +75,9 @@ Login to Meta Business Suite https://business.facebook.com
 * Set these three variables in file scripts/default.sh 
 
 ```
-export WHATSAPP_PHONE_NUMBER_ID="642398275615559"
-export META_PERMANENT_ACCESS_TOKEN="EAARZCIZBewkk8BO7iPSXXkfAbiNY90NoyrnQNLMYGxLHc2mRBnhNHZAHTKpSoxyKZCvFf7dgj4bSTF1mFCqzFAAf3GnZCO7pEdXuZBtW72x1fIY6Y2tnuEb5Gh5AZARr7wK7yICblIN740az34QIFpU8YZCDSGBLWlaStgEXEQZCkwfUiRtPS5aG6y6dXe47qcll7rwZDZD"
-export WHATSAPP_PHONE_NUMBER_TO_CALL="447801878914"
+export WHATSAPP_PHONE_NUMBER_ID="6xxxxxxxxxxxxxxxxx9"
+export META_PERMANENT_ACCESS_TOKEN="EAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxDZD"
+export WHATSAPP_PHONE_NUMBER_TO_CALL="44xxxxxxxxxx"
 ```
 
 * Note: Whatsapp text messages will not work unless the user (The WHATSAPP_PHONE_NUMBER_TO_CALL) has previously sent you a text message, 
