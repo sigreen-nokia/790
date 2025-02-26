@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 #this is the script that will be hit for defender events
 #######################################################
 #change these two to point to your line account channel
