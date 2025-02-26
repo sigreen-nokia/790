@@ -58,16 +58,16 @@
 ## Steps to configure your WhatsApp account for message api (if you have not already)
 
 ```
-* create a Meta developer account
-* on the console https://developers.facebook.com/apps/
-*    create an app 
-*        name: deepfield 
-*        email: [your email] 
-*        other->Business
-*        WhatsApp
-* Login to Meta Business Suite https://business.facebook.com
-*        Make sure you have a system user
-*        Create a perminent access token with admin user, permission whatsapp_business_messaging (see https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+create a Meta developer account
+on the console https://developers.facebook.com/apps/
+   create an app 
+       name: deepfield 
+       email: [your email] 
+       other->Business
+       WhatsApp
+Login to Meta Business Suite https://business.facebook.com
+       Make sure you have a system user
+       Create a perminent access token with admin user, permission whatsapp_business_messaging (see https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 ```
 
 ## configure 790 to use your WhatsApp account
