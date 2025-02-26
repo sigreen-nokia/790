@@ -1,0 +1,11 @@
+
+#good
+curl -i -X POST https://graph.facebook.com/v21.0/642398275615559/messages -H 'Authorization: Bearer EAARZCIZBewkk8BOyV42cZAqAtZAjHPx1CTZCXUq6gExgZBn2ZCpkOQVZC9Ry1NT7INY85FxKlgMa2xTLflNlPi6hYk7rMZC4Q4ryziw3qrqiYg8quJertGiGH9YKYPC2XgZBpaAyBIIpVa9QwfyUJL0tMhP9Ur1UQZCGjzZCzsxwr4ffzUZCtYxr5ln84hALUJdKnQZCI7BSm98yvbBN8KgoWZBplUBMHBNnVEZD' -H 'Content-Type: application/json' -d '{ "messaging_product": "whatsapp", "to": "447801878914", "type": "template", "template": { "name": "hello_world", "language": { "code": "en_US" } } }'
+#
+curl -v -i POST https://graph.facebook.com/v21.0/642398275615559/messages -H 'Authorization: Bearer EAARZCIZBewkk8BO7iPSXXkfAbiNY90NoyrnQNLMYGxLHc2mRBnhNHZAHTKpSoxyKZCvFf7dgj4bSTF1mFCqzFAAf3GnZCO7pEdXuZBtW72x1fIY6Y2tnuEb5Gh5AZARr7wK7yICblIN740az34QIFpU8YZCDSGBLWlaStgEXEQZCkwfUiRtPS5aG6y6dXe47qcll7rw                             ZDZD' -H 'Content-Type: application/json' -d '{ "messaging_product": "whatsapp", "to": ""447801878914"", "type": "template", "template": { "name": "hello_world", "language": { "code": "en_US" } } }'
+
+#bad
+curl -v -i POST https://graph.facebook.com/v21.0/642398275615559/messages -H 'Authorization: Bearer EAARZCIZBewkk8BOyV42cZAqAtZAjHPx1CTZCXUq6gExgZBn2ZCpkOQVZC9Ry1NT7INY85FxKlgMa2xTLflNlPi6hYk7rMZC4Q4ryziw3qrqiYg8quJertGiGH9YKYPC2XgZBpaAyBIIpVa9QwfyUJL0tMhP9Ur1UQZCGjzZCzsxwr4ffzUZCtYxr5ln84hALUJdKnQZCI7BSm98yvbBN8KgoWZBplUBMHBNnVEZD' -H 'Content-Type: application json' -d '{ "messaging_product": "whatsapp", "to": "447801878914", "type": "template", "template": { "name": "hello_world", "language": { "code": "en_US" } } }'
+
+#
+
